@@ -5,8 +5,32 @@ npm i express axios
 mkdir views public
 touch index.js README.md index.html style.css script.js .gitignore
 #edits .gitignore default text
+    echo "# Logs" >> .gitignore
+    echo "logs" >> .gitignore
+    echo "*.log" >> .gitignore
+    echo "npm-debug.log*" >> .gitignore
+    echo "yarn-debug.log*" >> .gitignore
+    echo "yarn-error.log*" >> .gitignore
+    echo "pnpm-debug.log*" >> .gitignore
+    echo "lerna-debug.log*" >> .gitignore
+    echo "" >> .gitignore
     echo "node_modules" >> .gitignore
+    echo "dist" >> .gitignore
+    echo "dist-ssr" >> .gitignore
+    echo "*.local" >> .gitignore
+    echo "" >> .gitignore
+    echo "# Editor directories and files" >> .gitignore
+    echo ".vscode/*" >> .gitignore
+    echo "!.vscode/extensions.json" >> .gitignore
+    echo ".idea" >> .gitignore
     echo ".DS_Store" >> .gitignore
+    echo "*.suo" >> .gitignore
+    echo "*.ntvs*" >> .gitignore
+    echo "*.njsproj" >> .gitignore
+    echo "*.sln" >> .gitignore
+    echo "*.sw?" >> .gitignore
+
+
 #creates index.js default text
     echo "const axios = require('axios');" >> index.js
     echo "const express = require('express');" >> index.js
